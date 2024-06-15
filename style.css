@@ -1,0 +1,47 @@
+.showcase{
+    background: url(img/Japon\ f.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+h1 {
+    letter-spacing: 20px;
+}
+
+h1 .header-space{
+    letter-spacing: 75px;
+}
+
+.pb-6{
+    padding-bottom: 75px;
+    width: 10%;
+}
+
+.showcase-img{
+    padding-top: 80px;
+}
+
+.showcase-img img{
+    height: 500px;
+    border-radius: 30px;
+}
+
+.showcase-img img:nth-child(2){
+    margin-top: 80px;
+}
+
+@media (max-width:768px){
+    .showcase{
+        height: 100%;
+    }
+    .pb-6{
+        padding-bottom: 90px;
+    }
+    .showcase-img{
+        display: none;
+    }
+    h1, h1 .header-space{
+        letter-spacing: 20px;
+    }
+}
